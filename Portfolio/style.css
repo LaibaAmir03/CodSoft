@@ -1,0 +1,90 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+}
+
+header {
+    background-color: #AA4747;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 40px;
+}
+
+.about-content img {
+    max-width: 100%;
+    height: auto;
+    color:black;
+    margin-right: 20px;
+    text-align-last: right;
+    float:left;
+    font-family:sans-serif;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a subtle shadow to the image */
+}
+
+.skills-content ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.projects-content .project {
+    margin-bottom: 40px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow to project cards */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Add transitions for smoother interactions */
+}
+
+.projects-content .project:hover {
+    transform: translateY(-5px); /* Lift the project card on hover */
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2);
+}
+
+.projects-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+.contact-content p {
+    margin-bottom: 10px;
+}
+
+.skills-content .images {
+    height: 220px;
+    width: 280px;
+    align-self: center;    
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #AA4747;
+    color:white;
+}
